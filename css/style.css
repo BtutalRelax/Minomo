@@ -19,7 +19,13 @@
 
 @media (max-width: 767px){
 	.container{
-		max-width: none;
+		max-width: 550px;
+    }
+}
+
+@media (max-width: 530px){
+	.container{
+		max-width: 479px;
 	}
 }
 
@@ -93,17 +99,16 @@ p{
 }
 
 .first-post{
+	display: flex;
+	flex: 1 1 100%;
 	max-width: 1062px;
 	margin: 0 auto;
 }
 
 .first-post__img{
-	display: flex;
-	flex: 1 1 100%;
-	width: 100%;
+	max-width: 100%;
 	object-fit: cover;
 	margin-top: 88px;
-	justify-content: center;
 }
 
 .perfect{
